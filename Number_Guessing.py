@@ -1,3 +1,9 @@
+"""
+
+Code for a Number Guessing Game that Utilizes the Python Programming Language.
+
+"""
+
 import random
 import os
 import time
@@ -58,4 +64,5 @@ class NGG:
 
 root = tk.Tk()
 game = NGG(root)
+
 root.mainloop()
